@@ -242,7 +242,7 @@ const inusdt=totalTokens*0.5;
       <h4>{exchangeRate}Profit/h ~ 1 Token</h4>
       <h4>Tokens ~ {totalTokens}</h4>
       <p>{totalTokens} * 0.5 ~ {inusdt} usdt</p>
-      {clickUpgradeLevel > 4 && totalValue > 3 && (
+      {clickUpgradeLevel > 4 && totalValue > 2 && (
       <div className="exchange">
         <div className="exbox1">
           <input
